@@ -97,7 +97,7 @@ plot(Number_of_blocks,time, ylab = "Time in Seconds", xlab = "Number of Blocks",
      main = "Blocks created vs Time to Create")
 
 
-#6 From online references.
+#6 Online references used
 proof_of_work1 = function(block1, difficulty) {
   block$nonce = 0
   hash1 = digest(block, "sha256")
