@@ -9,6 +9,7 @@ my_block <- list(index = 1, timestamp = "2021-08-25 22:22:22 IDT",
                  data = "Simple_Block" , previous_hash = 0, proof = 8, new_hash=NULL)
 print(my_block)
 
+
 #Part 2A. Making a hash using the function digest. The function takes in two arguments, 
 #the object to be encrypted and the algorithm to create the encrypted message.
 Hash <- digest("FinTech","sha256")
